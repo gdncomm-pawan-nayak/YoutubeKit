@@ -71,7 +71,7 @@ open class YTSwiftyPlayer: WKWebView {
 
     public enum Const {
         /// url: https://www.youtube.com
-        public static let basePlayerURLString = Bundle.main.bundleIdentifier ?? "https://www.youtube-nocookie.com"
+        public static let basePlayerURLString = "https://com.blibli.mobile"
     }
 
     public init(frame: CGRect = .zero, playerVars: [String: AnyObject]) {
